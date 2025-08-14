@@ -5,13 +5,19 @@
     padding: 0;
 }
 
-
 .azeret-mono-normat {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* sheard style */
+.center{
+  text-align: center;
+}
 
+.center{
+  text-align: center;
+}
 /* style header  */
 .logo{
 color: rgba(13, 19, 33, 1);
@@ -40,4 +46,122 @@ padding: 17px 24px 17px 24px;
     display: flex;
     justify-content: space-between;
     margin: 40px 120px;
+}
+/* style hero section */
+.hero{
+  padding:26px 220px 45px 220px ;
+ background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size: cover;
+  text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap:20px ;
+
+}
+.hero-title{
+color: rgba(13, 19, 33, 1);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 400;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.hero-description{
+color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.hero-btn{
+padding: 20px 24px;
+border-radius: 8px;
+background: rgba(13, 19, 33, 1);
+color: rgba(255, 255, 255, 1);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* style web-devlopment */
+.web-devlopment{
+  border-radius: 16px;
+ background: rgba(13, 19, 33, 0.02);
+  margin: 40px 150px;
+  padding: 80px 90px;
+}
+.web-dev-title{
+  display: inline;
+color: rgba(13, 19, 33, 1);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: 0%;
+text-align: center;
+margin:20px 0 ;
+}
+
+.web-dev-subtitle{
+color: rgba(13, 19, 33, 1);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+
+}
+.web-devlopment-content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.web-dev-container{
+min-width:450px ;
+  
+}
+.coding-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 50px;
+  background-color:white ;
+  margin-bottom: 40px;
+}
+.coding-title{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.coding-subtitle{
+  display: inline-block;
+  margin: 10px 0;
+}
+/* My Inspiration */
+
+.inspiration{
+  margin:100px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
