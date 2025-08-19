@@ -82,7 +82,7 @@ text-align: center;
 opacity: 0.7;
 
 }
-.hero-btn{
+.hero-btn a{
 padding: 20px 24px;
 border-radius: 8px;
 background: rgba(13, 19, 33, 1);
@@ -93,6 +93,9 @@ font-weight: 400;
 line-height: 0px;
 letter-spacing: 0%;
 text-align: center;
+}
+.hero-btn > a{
+text-decoration: none;
 }
 
 /* style web-devlopment */
